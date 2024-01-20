@@ -1,0 +1,107 @@
+/* Estilos gerais */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.rodape1{
+    font-size: smaller;
+    text-align: right;
+    color: #cf3131;
+    width: 95%; 
+}
+
+h1 {
+    text-align: center;
+    margin: -90px;
+    color: #cf3131;
+    font-size: 50px;
+}
+
+.menu-principal{
+    width: 100%;
+    background-color: #1d1918;
+    height: 100px;
+}
+
+marquee{
+    margin-top: 80px;    
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: #cf3131;
+    height: 25px;
+}
+
+.rede-sociais ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 5px;
+}
+
+.rede-sociais{
+    width: 18%;
+    float: right;
+}
+
+
+/* Estilos do catálogo */
+.catalogo {
+    display: flex; /* ativa o flexbox */
+    flex-wrap: wrap; /* permite que os itens se quebrem em linhas */
+    justify-content: center; /* alinha os itens horizontalmente ao centro */
+    align-items: center; /* alinha os itens verticalmente ao centro */
+    max-width: 1200px; /* define a largura máxima do catálogo */
+    margin: 20px 20px 20px 20px auto; /* centraliza o catálogo na página */
+}
+
+.curso {
+    flex: 200px; /* define a flexibilidade do item, permitindo que ele cresça, encolha e tenha uma largura base de 300px */
+    margin: 10px; /* define a margem entre os itens */
+    padding: 10px; /* define o espaçamento interno do item */
+    background-color: white; /* define a cor de fundo do item */
+    border: 1px solid #ccc; /* define a borda do item */
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1); /* define uma sombra para o item */
+}
+
+.curso img {
+    width: 70%; /* define a largura da imagem como 100% do item */
+    height: 150px; /* define a altura da imagem como 200px */
+    object-fit: cover; /* ajusta a imagem para cobrir o espaço disponível */
+}
+
+.curso h2 {
+    margin: 2px 0; /* define a margem superior e inferior do título */
+    font-size: 20px; /* define o tamanho da fonte do título */
+    color: #333; /* define a cor da fonte do título */
+}
+
+.curso p {
+    margin: 10px 0; /* define a margem superior e inferior do parágrafo */
+    font-size: 16px; /* define o tamanho da fonte do parágrafo */
+    color: #666; /* define a cor da fonte do parágrafo */
+    line-height: 1.5; /* define o espaçamento entre as linhas do parágrafo */
+}
+
+.curso a {
+    display: inline-block; /* define o elemento como um bloco em linha */
+    margin: 5px 5px 10px 10px; /* define a margem superior e inferior do elemento */
+    padding: 10px 20px; /* define o espaçamento interno do elemento */
+    background-color: #0F599F; /* define a cor de fundo do elemento */
+    color: white; /* define a cor da fonte do elemento */
+    text-decoration: none; /* remove o sublinhado do elemento */
+    font-weight: bold; /* define a fonte como negrito */
+}
+
+.localizacao {
+    background-image: url(https://img.freepik.com/fotos-premium/resumo-de-fundo-vermelho-circular_8466-2.jpg); 
+    background-size: contain;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 20px; /* Ajuste o tamanho da fonte conforme necessário */
+}
