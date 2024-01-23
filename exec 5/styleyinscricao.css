@@ -1,0 +1,20 @@
+* {
+color: aliceblue;
+margin: 10px;
+}
+
+.conteiner {
+                    padding: auto;
+                    margin-right: 100px;
+                    text-align: center;
+                   
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    font-size: 30px;
+}
+
+input {
+                    width: 300px; /* ajuste o valor conforme a sua preferência */
+                    height: 30px;
+                  }
+
+                  
